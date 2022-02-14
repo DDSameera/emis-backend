@@ -43,8 +43,8 @@ class Handler extends ExceptionHandler
 
         $this->renderable(function (Throwable $e, $request) {
 
-            //   if ($request->wantsJson() && !config('app.debug')) {
-            if ($request->wantsJson()) {
+            if ($request->wantsJson() && !config('app.debug')) {
+
 
                 /*Validation Exception*/
 
