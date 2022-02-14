@@ -1,0 +1,14 @@
+POST http://127.0.0.1:8000/api/employees
+Content-Type: application/json
+Accept: application/json
+
+{
+    "emp_no": 1,
+    "birth_date": "1987-11-26",
+    "first_name": "Sameera",
+    "last_name": "Wijerathan",
+    "gender": "m",
+    "hire_date": "2022-02-14"
+}
+
+

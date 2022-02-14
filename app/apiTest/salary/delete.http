@@ -1,0 +1,5 @@
+DELETE http://127.0.0.1:8000/api/salaries/1
+Content-Type: application/json
+Accept: application/json
+
+

@@ -1,0 +1,12 @@
+POST http://127.0.0.1:8000/api/salaries
+Content-Type: application/json
+Accept: application/json
+
+{
+    "emp_no": 1,
+    "salary": 900,
+    "from_date": "2020-01-01",
+    "to_date": "2020-01-05"
+}
+
+
